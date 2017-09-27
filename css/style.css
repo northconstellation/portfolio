@@ -1,0 +1,484 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    outline-style: none;
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    font-family: 'opensans-regular';
+    margin: 0;
+    /*line-height: 1;*/
+}
+img {
+    border: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.b-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.content_middle {
+    max-width: 1000px;
+    padding: 3% 0;
+    margin: 0 auto;
+}
+
+
+/*b-container__header begin*/
+
+.b-container__header {
+    background: url(../img/header_bg.jpg) top center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    min-height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.b-header {
+    z-index: 10;
+    height: 97%;
+    padding-top: 3%;
+}
+
+.b-header__top {
+    position: relative;
+    z-index: 100;
+}
+
+.b-top__logo {
+    float: left;
+    width: 39%;
+}
+
+
+.b-top__menu {
+    float: right;
+    width: 60%;
+}
+
+.b-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.b-menu__item {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+
+}
+
+.b-menu__link {
+    cursor: pointer;
+    padding: 3px 10px 4px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.b-menu__link:hover {
+    border: 1px solid #ffffff;
+}
+
+
+.b-header__middle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.b-middle {
+    width: 560px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -280px;
+    text-align: center;
+}
+
+.b-middle__title {
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'sourcesanspro-bold';
+
+}
+
+.b-middle__subtitle{
+    font-size: 16px;
+    color: #ffffff;
+    margin: 30px 0 50px 0;
+}
+
+.b-button {
+    border:  1px solid #19bd9a;
+    border-radius: 25px;
+    background: transparent;
+    color: #19bd9a;
+    font-size: 20px;
+    padding: 10px 20px 13px 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.b-header__bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+/*b-container__header end*/
+
+
+/*b-container__team begin*/
+.b-container__team {
+    background: #ffffff;
+    padding: 0 0 80px 0;
+}
+
+.b-team  {
+
+}
+
+.title_block {
+    font-size: 36px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin: 0 0 25px 0;
+}
+
+.title_block:after {
+    content: "";
+    position: absolute;
+    background: #19bd9a;
+    width: 70px;
+    height: 5px;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title_dark {
+    color: #333b46;
+}
+
+.title_white{
+    color: #ffffff;
+}
+
+.subtitle_block {
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    color: #81868e;
+    line-height: 1.7;
+    margin: 0 0 25px 0;
+}
+
+.b-team__teamBlock {
+    font-size: 0;
+}
+
+.b-teamBlock__teamLeft {
+    display: inline-block;
+    width: 38%;
+    margin: 0 29% 0 0;
+    vertical-align: top;
+}
+
+.b-teamBlock__teamRight {
+    display: inline-block;
+    width: 33%;
+    margin: 0 ;
+    vertical-align: top;
+}
+
+.b-teamRight {
+    text-align: right;
+    color: #464646;
+}
+
+.b-teamRight__title {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.b-teamRight__subtitle {
+    color: #81868e;
+    font-size: 14px;
+    font-family: 'sourcesanspro-light';
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 1px 0 25px 0;
+}
+
+.b-teamRight__about {
+    color: #81868e;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0px 0 15px 0;
+}
+
+.b-skills__skillsRow {
+    margin: 40px 0 0px 0;
+}
+
+.b-skillsTop__skillsTitle {
+    font-size: 16px;
+    color: #81868e;
+    font-family: 'sourcesanspro-light';
+    text-transform: uppercase;
+    text-align: left;
+    float: left;
+}
+
+.b-skillsTop__skillsNum {
+    font-size: 16px;
+    color: #81868e;
+    font-family: 'sourcesanspro-light';
+    text-align: right;
+    float: right;
+}
+
+.b-skillsProgress__img {
+    max-width: 100%;
+}
+
+/*b-container__team end*/
+
+
+/*b-container__service begin*/
+
+.b-container__service {
+    background: #2d3e50;
+}
+
+.b-service__serviceBlock {
+    font-size: 0;
+    margin: 60px 0 0 0;
+}
+
+.b-serviceBlock__serviceCell {
+    width: 22%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 4%;
+    text-align: center;
+}
+
+.b-serviceBlock__serviceCell:first-child {
+    margin: 0;
+}
+
+.b-serviceCell__name {
+    font-size: 17px;;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'robotothin';
+    margin: 30px 0 0 0;
+}
+
+.b-serviceCell__price{
+    font-size: 24px;
+    color: #00bd9b;
+    font-family: 'robotomedium';
+    margin: 0 0 10px 0;
+}
+
+.b-serviceCell__about{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'robotolight';
+    line-height: 1.4;
+}
+
+
+/*b-container__service end*/
+
+
+
+/*b-container__header begin*/
+/*b-container__header end*/
+
+
+
+/*b-container__testim begin*/
+
+.b-container__testim {
+    background: #2d3e50;
+}
+
+
+/*b-container__testim end*/
+
+/*b-container__registration begin*/
+.b-container__registration {
+    background: #ffffff;
+    padding: 30px 0;
+}
+
+.b-cregistration {
+    text-align: center;
+}
+
+.ss-form-container {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.b-form__item {
+    margin: 0 0 20px 0;
+}
+
+.b-form__label {
+    font-size: 14px;
+    color: #464646;
+
+}
+
+.b-form__input{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 5px 0 0px 0;
+    border: 1px solid #464646;
+}
+
+input::placeholder {
+    color: #cfd3d4;
+}
+
+textarea::placeholder {
+    color: #cfd3d4;
+}
+
+.b-btn__reg {
+    width: 100%;
+    background: #19bd9a;
+    border:0;
+    font-size: 21px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px 0;
+
+}
+
+/*bb-container__registration end*/
+
+/*b-container__contact begin*/
+.b-container__contact {
+    background: #f3f3f3;
+    padding: 30px 0;
+}
+
+.b-contact {
+    text-align: center;
+}
+
+.b-contact__contactRow {
+    font-size: 0;
+}
+
+.b-contactRow__contactItem {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 3%;
+
+    text-align: center;
+}
+
+.b-contactRow__contactItem:first-child {
+    margin: 0;
+}
+
+.b-contactItem__contactBottom {
+    border: 1px solid #cccccc;
+    padding: 30px 0 40px 0;
+}
+
+.b-contactBottom__name {
+    font-size: 16px;
+    color: #464646;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+
+.b-contactBottom__inform {
+    font-size: 14px;
+    color: #81868e;
+    margin: 0 0 0px 0;
+    text-transform: uppercase;
+}
+
+/*b-container__contact end*/
+
+
+/*b-container__footer begin*/
+
+.b-container__footer {
+    background: #2d3e50;
+    padding: 30px 0;
+}
+
+.b-footer {
+    text-align: center;
+}
+
+.b-footer__copyright {
+    color: #81868e;
+    font-size: 14px;
+    margin: 0 0 35px 0;
+}
+
+.b-footerMenu__item {
+    display: inline-block;
+    margin:  0 0.5%;
+}
+/*b-container__footer end*/
