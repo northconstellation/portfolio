@@ -364,11 +364,17 @@ ul {
 .b-testimRight__author {
     color: #cecece;
     font-size: 20px;
+    text-align: right;
+    font-family: 'sourcesanspro-light';
+    font-style: italic;
 }
 
 .b-testimRight__prof {
     color: #cecece;
     font-size: 20px;
+    text-align: right;
+    font-family: 'sourcesanspro-light';
+    font-style: italic;
 }
 /*b-container__testim end*/
 
