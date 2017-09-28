@@ -363,12 +363,13 @@ ul {
 
 .b-testimRight__author {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 22px;
+    margin: 15px 0 5px 0;
 }
 
 .b-testimRight__prof {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 22px;
 }
 /*b-container__testim end*/
 
