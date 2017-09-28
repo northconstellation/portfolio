@@ -353,7 +353,7 @@ ul {
 /*b-container__testim begin*/
 
 .b-container__testim {
-    background: #2d3e50;
+    background: #19bd9a;;
 }
 
 .b-testimRight__text {
@@ -369,8 +369,19 @@ ul {
 }
 
 .b-testimRight__prof {
-    color: #ffffff;
-    font-size: 22px;
+    color: #cecece;
+    font-size: 20px;
+    text-align: right;
+    font-family: 'sourcesanspro-light';
+    font-style: italic;
+}
+
+.b-testimRight__prof {
+    color: #cecece;
+    font-size: 20px;
+    text-align: right;
+    font-family: 'sourcesanspro-light';
+    font-style: italic;
 }
 /*b-container__testim end*/
 
