@@ -356,7 +356,20 @@ ul {
     background: #2d3e50;
 }
 
+.b-testimRight__text {
+    color: #ffffff;
+    font-size: 14px;
+}
 
+.b-testimRight__author {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.b-testimRight__prof {
+    color: #ffffff;
+    font-size: 20px;
+}
 /*b-container__testim end*/
 
 /*b-container__registration begin*/
